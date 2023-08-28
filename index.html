@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <h2 style="margin:5px">To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+        <li>Choose a Topic</li>
+      <li>Go through Tutorials</li>
+      <li>Practise the Codes</li>
+      <li>Read books</li>
+      <li>Organise notes</li>
+      <li>Create projects</li>
+      <li>Take quiz</li>
+      <li>Comprehend interview questions</li>
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll()">clear-list</button>
+
+    <script type="text/javascript" src="src.js"></script>
+
+  </body>
+</html>
